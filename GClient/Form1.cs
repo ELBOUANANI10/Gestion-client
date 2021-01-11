@@ -39,26 +39,18 @@ namespace GClient
 
         private void checkedListBox1_SelectedIndexChanged(object sender, EventArgs e)
         {
-            for (int i = 0; i < ds.Tables["client"].Rows.Count; i++)
-            {
+            
+            
                 position = this.daGVclient.CurrentRow.Index;
                 id = int.Parse(this.daGVclient.Rows[position].Cells[0].Value.ToString());
-                if (textBox4.Text == ds.Tables["Client"].Rows[1][0].ToString()) ;
-                cpt = 1;
-                break;
-            }
-            if (cpt == -1)
-            {
-                MessageBox.Show("aucun enregistrement");
+                
 
-            }
-            else
             {
                 ds.Tables["Client"].Rows[position][1] = textBox4.Text;
                 ds.Tables["Client"].Rows[position][2] = textBox3.Text;
                 ds.Tables["Client"].Rows[position][3] = inputad.Text;
                 ds.Tables["Client"].Rows[position][4] = textBox2.Text;
-                cpt = -1;
+                
             }
         }
 
