@@ -459,11 +459,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\Administrateur\\source\\repos\\GClient\\GClient.csproj",
+      "projectUniqueName": "C:\\Users\\Administrateur\\Desktop\\app-location\\Gestion-client\\GClient\\GClient.csproj",
       "projectName": "GClient",
-      "projectPath": "C:\\Users\\Administrateur\\source\\repos\\GClient\\GClient.csproj",
+      "projectPath": "C:\\Users\\Administrateur\\Desktop\\app-location\\Gestion-client\\GClient\\GClient.csproj",
       "packagesPath": "C:\\Users\\Administrateur\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\Administrateur\\source\\repos\\GClient\\obj\\",
+      "outputPath": "C:\\Users\\Administrateur\\Desktop\\app-location\\Gestion-client\\GClient\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\Administrateur\\AppData\\Roaming\\NuGet\\NuGet.Config",
